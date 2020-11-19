@@ -44,7 +44,6 @@
 		03A65E931C6BB3030062603F /* StatementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247B321C3F142E00AE3E12 /* StatementTests.swift */; };
 		03A65E941C6BB3030062603F /* ValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247B331C3F142E00AE3E12 /* ValueTests.swift */; };
 		03A65E951C6BB3030062603F /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247B161C3F127200AE3E12 /* TestHelpers.swift */; };
-		03A65E971C6BB3210062603F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A65E961C6BB3210062603F /* libsqlite3.tbd */; };
 		19A1709C3E7A406E62293B2A /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A17B93B48B5560E6E51791 /* Fixtures.swift */; };
 		19A17152E32A9585831E3FE0 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A17BA55DABB480F9020C8A /* DateAndTimeFunctions.swift */; };
 		19A1717B10CC941ACB5533D6 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1730E4390C775C25677D1 /* FTS5.swift */; };
@@ -81,7 +80,6 @@
 		19A17FB80B94E882050AA908 /* FoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1794CC4D7827E997E32A7 /* FoundationTests.swift */; };
 		19A17FDA323BAFDEC627E76F /* fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 19A17E2695737FAB5D6086E3 /* fixtures */; };
 		19A17FF4A10B44D3937C8CAC /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A1710E73A46D5AC721CDA9 /* Errors.swift */; };
-		3D67B3E61DB2469200A4F4C6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D67B3E51DB2469200A4F4C6 /* libsqlite3.tbd */; };
 		3D67B3E71DB246BA00A4F4C6 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AEE1C3F06E900AE3E12 /* Blob.swift */; };
 		3D67B3E81DB246BA00A4F4C6 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AEF1C3F06E900AE3E12 /* Connection.swift */; };
 		3D67B3E91DB246D100A4F4C6 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AF21C3F06E900AE3E12 /* Statement.swift */; };
@@ -108,8 +106,32 @@
 		49EB68C51F7B3CB400D89D40 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB68C31F7B3CB400D89D40 /* Coding.swift */; };
 		49EB68C61F7B3CB400D89D40 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB68C31F7B3CB400D89D40 /* Coding.swift */; };
 		49EB68C71F7B3CB400D89D40 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB68C31F7B3CB400D89D40 /* Coding.swift */; };
+		D1173A50222C717600DCB77A /* libaergolite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4C222C717600DCB77A /* libaergolite.a */; };
+		D1173A51222C717600DCB77A /* libaergolite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4C222C717600DCB77A /* libaergolite.a */; };
+		D1173A52222C717600DCB77A /* libaergolite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4C222C717600DCB77A /* libaergolite.a */; };
+		D1173A53222C717600DCB77A /* libaergolite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4C222C717600DCB77A /* libaergolite.a */; };
+		D1173A54222C717600DCB77A /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4D222C717600DCB77A /* libuv.a */; };
+		D1173A55222C717600DCB77A /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4D222C717600DCB77A /* libuv.a */; };
+		D1173A56222C717600DCB77A /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4D222C717600DCB77A /* libuv.a */; };
+		D1173A57222C717600DCB77A /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4D222C717600DCB77A /* libuv.a */; };
+		D1173A58222C717600DCB77A /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = D1173A4E222C717600DCB77A /* sqlite3.h */; };
+		D1173A59222C717600DCB77A /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = D1173A4E222C717600DCB77A /* sqlite3.h */; };
+		D1173A5A222C717600DCB77A /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = D1173A4E222C717600DCB77A /* sqlite3.h */; };
+		D1173A5B222C717600DCB77A /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = D1173A4E222C717600DCB77A /* sqlite3.h */; };
+		D1173A5C222C717600DCB77A /* libbinn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4F222C717600DCB77A /* libbinn.a */; };
+		D1173A5D222C717600DCB77A /* libbinn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4F222C717600DCB77A /* libbinn.a */; };
+		D1173A5E222C717600DCB77A /* libbinn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4F222C717600DCB77A /* libbinn.a */; };
+		D1173A5F222C717600DCB77A /* libbinn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1173A4F222C717600DCB77A /* libbinn.a */; };
+		D15069AA25670E400068EFD7 /* libsecp256k1-vrf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15069A925670E400068EFD7 /* libsecp256k1-vrf.a */; };
+		D15069AC256715650068EFD7 /* libsecp256k1-vrf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15069AB256715650068EFD7 /* libsecp256k1-vrf.a */; };
+		D15069AD256715650068EFD7 /* libsecp256k1-vrf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15069AB256715650068EFD7 /* libsecp256k1-vrf.a */; };
+		D15069AE256715710068EFD7 /* libsecp256k1-vrf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15069AB256715650068EFD7 /* libsecp256k1-vrf.a */; };
+		D15069AF256715720068EFD7 /* libsecp256k1-vrf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15069AB256715650068EFD7 /* libsecp256k1-vrf.a */; };
+		D15069B1256715A20068EFD7 /* binn.h in Headers */ = {isa = PBXBuildFile; fileRef = D15069B0256715A10068EFD7 /* binn.h */; };
+		D15069B2256715A20068EFD7 /* binn.h in Headers */ = {isa = PBXBuildFile; fileRef = D15069B0256715A10068EFD7 /* binn.h */; };
+		D15069B3256715A20068EFD7 /* binn.h in Headers */ = {isa = PBXBuildFile; fileRef = D15069B0256715A10068EFD7 /* binn.h */; };
+		D15069B4256715A20068EFD7 /* binn.h in Headers */ = {isa = PBXBuildFile; fileRef = D15069B0256715A10068EFD7 /* binn.h */; };
 		EE247AD71C3F04ED00AE3E12 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = EE247AD61C3F04ED00AE3E12 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE247ADE1C3F04ED00AE3E12 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE247AD31C3F04ED00AE3E12 /* SQLite.framework */; };
 		EE247B031C3F06E900AE3E12 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AEE1C3F06E900AE3E12 /* Blob.swift */; };
 		EE247B041C3F06E900AE3E12 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AEF1C3F06E900AE3E12 /* Connection.swift */; };
 		EE247B051C3F06E900AE3E12 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE247AF01C3F06E900AE3E12 /* fts3_tokenizer.h */; };
@@ -182,8 +204,6 @@
 		EE247B751C3F3FEC00AE3E12 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247B021C3F06E900AE3E12 /* Setter.swift */; };
 		EE91808E1C46E5230038162A /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EE91808D1C46E5230038162A /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE91808F1C46E76D0038162A /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EE91808D1C46E5230038162A /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE9180941C46EA210038162A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9180931C46EA210038162A /* libsqlite3.tbd */; };
-		EE9180951C46EBCC0038162A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9180911C46E9D30038162A /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,7 +233,6 @@
 /* Begin PBXFileReference section */
 		03A65E5A1C6BB0F50062603F /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A65E631C6BB0F60062603F /* SQLiteTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLiteTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A65E961C6BB3210062603F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		19A1710E73A46D5AC721CDA9 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		19A1721B8984686B9963B45D /* FTS5Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTS5Tests.swift; sourceTree = "<group>"; };
 		19A1729B75C33F9A0B9A89C1 /* DateAndTimeFunctionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAndTimeFunctionTests.swift; sourceTree = "<group>"; };
@@ -225,9 +244,16 @@
 		19A17B93B48B5560E6E51791 /* Fixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
 		19A17BA55DABB480F9020C8A /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAndTimeFunctions.swift; sourceTree = "<group>"; };
 		19A17E2695737FAB5D6086E3 /* fixtures */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = fixtures; sourceTree = "<group>"; };
-		3D67B3E51DB2469200A4F4C6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		49EB68C31F7B3CB400D89D40 /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
 		A121AC451CA35C79005A31D1 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1173A4B222C717600DCB77A /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
+		D1173A4C222C717600DCB77A /* libaergolite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libaergolite.a; sourceTree = "<group>"; };
+		D1173A4D222C717600DCB77A /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuv.a; sourceTree = "<group>"; };
+		D1173A4E222C717600DCB77A /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		D1173A4F222C717600DCB77A /* libbinn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbinn.a; sourceTree = "<group>"; };
+		D15069A925670E400068EFD7 /* libsecp256k1-vrf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsecp256k1-vrf.a"; path = "AergoLite/libsecp256k1-vrf.a"; sourceTree = "<group>"; };
+		D15069AB256715650068EFD7 /* libsecp256k1-vrf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsecp256k1-vrf.a"; sourceTree = "<group>"; };
+		D15069B0256715A10068EFD7 /* binn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binn.h; sourceTree = "<group>"; };
 		EE247AD31C3F04ED00AE3E12 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE247AD61C3F04ED00AE3E12 /* SQLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLite.h; sourceTree = "<group>"; };
 		EE247AD81C3F04ED00AE3E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -278,8 +304,6 @@
 		EE247B921C3F822600AE3E12 /* playground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playground@2x.png"; sourceTree = "<group>"; };
 		EE247B931C3F826100AE3E12 /* SQLite.swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = SQLite.swift.podspec; sourceTree = "<group>"; };
 		EE91808D1C46E5230038162A /* SQLiteObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = ../../SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
-		EE9180911C46E9D30038162A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
-		EE9180931C46EA210038162A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,7 +311,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A65E971C6BB3210062603F /* libsqlite3.tbd in Frameworks */,
+				D1173A56222C717600DCB77A /* libuv.a in Frameworks */,
+				D1173A52222C717600DCB77A /* libaergolite.a in Frameworks */,
+				D1173A5E222C717600DCB77A /* libbinn.a in Frameworks */,
+				D15069AF256715720068EFD7 /* libsecp256k1-vrf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +330,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D67B3E61DB2469200A4F4C6 /* libsqlite3.tbd in Frameworks */,
+				D1173A57222C717600DCB77A /* libuv.a in Frameworks */,
+				D1173A53222C717600DCB77A /* libaergolite.a in Frameworks */,
+				D1173A5F222C717600DCB77A /* libbinn.a in Frameworks */,
+				D15069AE256715710068EFD7 /* libsecp256k1-vrf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +341,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9180941C46EA210038162A /* libsqlite3.tbd in Frameworks */,
+				D1173A50222C717600DCB77A /* libaergolite.a in Frameworks */,
+				D15069AC256715650068EFD7 /* libsecp256k1-vrf.a in Frameworks */,
+				D1173A5C222C717600DCB77A /* libbinn.a in Frameworks */,
+				D1173A54222C717600DCB77A /* libuv.a in Frameworks */,
+				D15069AA25670E400068EFD7 /* libsecp256k1-vrf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +353,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE247ADE1C3F04ED00AE3E12 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +360,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9180951C46EBCC0038162A /* libsqlite3.tbd in Frameworks */,
+				D1173A55222C717600DCB77A /* libuv.a in Frameworks */,
+				D1173A51222C717600DCB77A /* libaergolite.a in Frameworks */,
+				D1173A5D222C717600DCB77A /* libbinn.a in Frameworks */,
+				D15069AD256715650068EFD7 /* libsecp256k1-vrf.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,14 +381,29 @@
 		3D67B3E41DB2469200A4F4C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D67B3E51DB2469200A4F4C6 /* libsqlite3.tbd */,
+				D15069A925670E400068EFD7 /* libsecp256k1-vrf.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1173A4A222C717600DCB77A /* AergoLite */ = {
+			isa = PBXGroup;
+			children = (
+				D1173A4B222C717600DCB77A /* module.map */,
+				D1173A4C222C717600DCB77A /* libaergolite.a */,
+				D1173A4F222C717600DCB77A /* libbinn.a */,
+				D1173A4D222C717600DCB77A /* libuv.a */,
+				D15069AB256715650068EFD7 /* libsecp256k1-vrf.a */,
+				D1173A4E222C717600DCB77A /* sqlite3.h */,
+				D15069B0256715A10068EFD7 /* binn.h */,
+			);
+			path = AergoLite;
 			sourceTree = "<group>";
 		};
 		EE247AC91C3F04ED00AE3E12 = {
 			isa = PBXGroup;
 			children = (
+				D1173A4A222C717600DCB77A /* AergoLite */,
 				EE247AD51C3F04ED00AE3E12 /* SQLite */,
 				EE247AE11C3F04ED00AE3E12 /* SQLiteTests */,
 				EE247B8A1C3F81D000AE3E12 /* Metadata */,
@@ -475,9 +526,6 @@
 				EE247B931C3F826100AE3E12 /* SQLite.swift.podspec */,
 				EE247B8C1C3F821200AE3E12 /* .travis.yml */,
 				EE247B8D1C3F821200AE3E12 /* Makefile */,
-				EE9180931C46EA210038162A /* libsqlite3.tbd */,
-				EE9180911C46E9D30038162A /* libsqlite3.tbd */,
-				03A65E961C6BB3210062603F /* libsqlite3.tbd */,
 				EE247B8E1C3F822500AE3E12 /* Documentation */,
 			);
 			name = Metadata;
@@ -508,6 +556,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15069B3256715A20068EFD7 /* binn.h in Headers */,
+				D1173A5A222C717600DCB77A /* sqlite3.h in Headers */,
 				03A65E781C6BB2EA0062603F /* fts3_tokenizer.h in Headers */,
 				03A65E751C6BB2DF0062603F /* SQLiteObjc.h in Headers */,
 				03A65E721C6BB2D30062603F /* SQLite.h in Headers */,
@@ -519,6 +569,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D67B3FB1DB2470600A4F4C6 /* SQLiteObjc.h in Headers */,
+				D15069B4256715A20068EFD7 /* binn.h in Headers */,
+				D1173A5B222C717600DCB77A /* sqlite3.h in Headers */,
 				3D67B3FC1DB2471B00A4F4C6 /* SQLite.h in Headers */,
 				3D67B3FD1DB2472D00A4F4C6 /* fts3_tokenizer.h in Headers */,
 			);
@@ -529,6 +581,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE91808E1C46E5230038162A /* SQLiteObjc.h in Headers */,
+				D15069B1256715A20068EFD7 /* binn.h in Headers */,
+				D1173A58222C717600DCB77A /* sqlite3.h in Headers */,
 				EE247B051C3F06E900AE3E12 /* fts3_tokenizer.h in Headers */,
 				EE247AD71C3F04ED00AE3E12 /* SQLite.h in Headers */,
 			);
@@ -538,6 +592,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15069B2256715A20068EFD7 /* binn.h in Headers */,
+				D1173A59222C717600DCB77A /* sqlite3.h in Headers */,
 				EE247B671C3F3FEC00AE3E12 /* fts3_tokenizer.h in Headers */,
 				EE247B621C3F3FDB00AE3E12 /* SQLite.h in Headers */,
 				EE91808F1C46E76D0038162A /* SQLiteObjc.h in Headers */,
@@ -696,7 +752,9 @@
 					};
 					EE247AD21C3F04ED00AE3E12 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y42QZ658MA;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					EE247ADC1C3F04ED00AE3E12 = {
 						CreatedOnToolsVersion = 7.2;
@@ -1029,6 +1087,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
 				SDKROOT = appletvos;
@@ -1049,6 +1111,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
 				SDKROOT = appletvos;
@@ -1062,6 +1128,10 @@
 			buildSettings = {
 				INFOPLIST_FILE = Tests/SQLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1074,6 +1144,10 @@
 			buildSettings = {
 				INFOPLIST_FILE = Tests/SQLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1094,6 +1168,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
 				SDKROOT = watchos;
@@ -1116,6 +1194,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
 				SDKROOT = watchos;
@@ -1159,6 +1241,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/AergoLite";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1182,6 +1265,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/AergoLite";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1221,7 +1305,9 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/AergoLite";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1237,6 +1323,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/AergoLite";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1246,41 +1333,71 @@
 		EE247AE81C3F04ED00AE3E12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y42QZ658MA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/AergoLite";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
 		EE247AE91C3F04ED00AE3E12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y42QZ658MA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/AergoLite";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};
@@ -1290,6 +1407,10 @@
 				INFOPLIST_FILE = Tests/SQLiteTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1301,6 +1422,10 @@
 				INFOPLIST_FILE = Tests/SQLiteTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1320,6 +1445,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
@@ -1343,6 +1472,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLite;
 				PRODUCT_NAME = SQLite;
@@ -1359,6 +1492,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/SQLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1373,6 +1510,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/SQLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AergoLite",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

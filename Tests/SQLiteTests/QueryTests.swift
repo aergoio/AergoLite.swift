@@ -1,5 +1,8 @@
 import XCTest
-#if SQLITE_SWIFT_STANDALONE
+
+#if true  // SQLITE_SWIFT_AERGOLITE
+import AergoLite
+#elseif SQLITE_SWIFT_STANDALONE
 import sqlite3
 #elseif SQLITE_SWIFT_SQLCIPHER
 import SQLCipher
