@@ -1,11 +1,8 @@
-# SQLite.swift
+# AergoLite.swift
 
-[![Build Status][TravisBadge]][TravisLink] [![CocoaPods Version][CocoaPodsVersionBadge]][CocoaPodsVersionLink] [![Swift5 compatible][Swift5Badge]][Swift5Link] [![Platform][PlatformBadge]][PlatformLink] [![Carthage compatible][CartagheBadge]][CarthageLink] [![Join the chat at https://gitter.im/stephencelis/SQLite.swift][GitterBadge]][GitterLink]
+[![Build Status][TravisBadge]][TravisLink] [![CocoaPods Version][CocoaPodsVersionBadge]][CocoaPodsVersionLink] [![Swift5 compatible][Swift5Badge]][Swift5Link] [![Platform][PlatformBadge]][PlatformLink] [![Carthage compatible][CartagheBadge]][CarthageLink]
 
-A type-safe, [Swift][]-language layer over [SQLite3][].
-
-[SQLite.swift][] provides compile-time confidence in SQL statement
-syntax _and_ intent.
+A type-safe, [Swift][]-language layer over [AergoLite](https://github.com/aergoio/aergolite). Based on [SQLite.swift](https://github.com/stephencelis/SQLite.swift)
 
 ## Features
 
@@ -18,13 +15,7 @@ syntax _and_ intent.
  - [Full-text search][] support
  - [Well-documented][See Documentation]
  - Extensively tested
- - [SQLCipher][] support via CocoaPods
- - Active support at
-   [StackOverflow](http://stackoverflow.com/questions/tagged/sqlite.swift),
-   and [Gitter Chat Room](https://gitter.im/stephencelis/SQLite.swift)
-   (_experimental_)
 
-[SQLCipher]: https://www.zetetic.net/sqlcipher/
 [Full-text search]: Documentation/Index.md#full-text-search
 [See Documentation]: Documentation/Index.md#sqliteswift-documentation
 
@@ -34,7 +25,8 @@ syntax _and_ intent.
 ```swift
 import SQLite
 
-let db = try Connection("path/to/db.sqlite3")
+let uri = "file:path/to/app.db?blockchain=on&discovery=local:4329&password=test"
+let db = try Connection(uri)
 
 let users = Table("users")
 let id = Expression<Int64>("id")
@@ -124,7 +116,7 @@ install SQLite.swift with Carthage:
  2. Update your Cartfile to include the following:
 
     ```ruby
-    github "stephencelis/SQLite.swift" ~> 0.12.0
+    github "aergoio/AergoLite.swift" ~> 0.12.0
     ```
 
  3. Run `carthage update` and
@@ -174,7 +166,7 @@ Swift code.
 
   ```swift
   dependencies: [
-      .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.12.0")
+      .package(url: "https://github.com/aergoio/AergoLite.swift.git", from: "0.12.0")
   ]
   ```
 
@@ -188,7 +180,7 @@ Swift code.
 
 ### Manual
 
-To install SQLite.swift as an Xcode sub-project:
+To install AergoLite.swift as an Xcode sub-project:
 
  1. Drag the **SQLite.xcodeproj** file into your own project.
     ([Submodule][], clone, or [download][] the project first.)
@@ -218,24 +210,6 @@ device:
 [download]: https://github.com/stephencelis/SQLite.swift/archive/master.zip
 
 
-## Communication
-
-[See the planning document] for a roadmap and existing feature requests.
-
-[Read the contributing guidelines][]. The _TL;DR_ (but please; _R_):
-
- - Need **help** or have a **general question**? [Ask on Stack
-   Overflow][] (tag `sqlite.swift`).
- - Found a **bug** or have a **feature request**? [Open an issue][].
- - Want to **contribute**? [Submit a pull request][].
-
-[See the planning document]: /Documentation/Planning.md
-[Read the contributing guidelines]: ./CONTRIBUTING.md#contributing
-[Ask on Stack Overflow]: http://stackoverflow.com/questions/tagged/sqlite.swift
-[Open an issue]: https://github.com/stephencelis/SQLite.swift/issues/new
-[Submit a pull request]: https://github.com/stephencelis/SQLite.swift/fork
-
-
 ## Author
 
  - [Stephen Celis](mailto:stephen@stephencelis.com)
@@ -244,34 +218,17 @@ device:
 
 ## License
 
-SQLite.swift is available under the MIT license. See [the LICENSE
-file](./LICENSE.txt) for more information.
-
-## Related
-
-These projects enhance or use SQLite.swift:
-
- - [SQLiteMigrationManager.swift][] (inspired by
-   [FMDBMigrationManager][])
+This wrapper is available under the MIT license, but AergoLite itself is dual licensed.
+Check the AergoLite repo for more details.
 
 
-## Alternatives
-
-Looking for something else? Try another Swift wrapper (or [FMDB][]):
-
- - [Camembert](https://github.com/remirobert/Camembert)
- - [GRDB](https://github.com/groue/GRDB.swift)
- - [SQLiteDB](https://github.com/FahimF/SQLiteDB)
- - [Squeal](https://github.com/nerdyc/Squeal)
- - [SwiftData](https://github.com/ryanfowler/SwiftData)
- - [SwiftSQLite](https://github.com/chrismsimpson/SwiftSQLite)
 
 [Swift]: https://swift.org/
 [SQLite3]: http://www.sqlite.org
 [SQLite.swift]: https://github.com/stephencelis/SQLite.swift
 
-[TravisBadge]: https://img.shields.io/travis/stephencelis/SQLite.swift/master.svg?style=flat
-[TravisLink]: https://travis-ci.org/stephencelis/SQLite.swift
+[TravisBadge]: https://img.shields.io/travis/aergoio/AergoLite.swift/master.svg?style=flat
+[TravisLink]: https://travis-ci.org/aergoio/AergoLite.swift
 
 [CocoaPodsVersionBadge]: https://cocoapod-badges.herokuapp.com/v/SQLite.swift/badge.png
 [CocoaPodsVersionLink]: http://cocoadocs.org/docsets/SQLite.swift
@@ -282,12 +239,5 @@ Looking for something else? Try another Swift wrapper (or [FMDB][]):
 [CartagheBadge]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
 [CarthageLink]: https://github.com/Carthage/Carthage
 
-[GitterBadge]: https://badges.gitter.im/stephencelis/SQLite.swift.svg
-[GitterLink]: https://gitter.im/stephencelis/SQLite.swift
-
 [Swift5Badge]: https://img.shields.io/badge/swift-5-orange.svg?style=flat
 [Swift5Link]: https://developer.apple.com/swift/
-
-[SQLiteMigrationManager.swift]: https://github.com/garriguv/SQLiteMigrationManager.swift
-[FMDB]: https://github.com/ccgus/fmdb
-[FMDBMigrationManager]: https://github.com/layerhq/FMDBMigrationManager
